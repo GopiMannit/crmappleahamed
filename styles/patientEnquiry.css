@@ -1,0 +1,750 @@
+
+.full {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* overflow-x:hidden ; */
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  justify-content: flex-start;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 80px;
+  width: 71%;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  fill: #BAACAC;
+}
+
+.error-message {
+  color: rgb(255, 0, 0);
+  margin-top: 5px;
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.success-message {
+  color: rgb(14, 68, 5);
+  margin-top: 5px;
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.submit-container {
+  box-sizing: border-box;
+  margin-top: 80px;
+}
+
+button {
+  background-color: #71900b;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 90px;
+  height: 40px;
+  margin-left: 90%;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.add-icon {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #8db600;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  top: 140px;
+  right: 60px;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.add-button-container {
+  margin-bottom: 10px;
+}
+
+.turnup-scale {
+  justify-content: flex-start;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 80px;
+  width: 71%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+  margin-top: 10px;
+
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.additional-info {
+  width: 75%;
+  padding: 20px;
+  margin-top: 20px;
+  border: 3px solid #8bd600;
+  border-radius: 15px;
+  box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.patient {
+  width: 75%;
+  padding: 20px;
+  border: 3px solid #8bd600;
+  border-radius: 15px;
+  box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.2)
+}
+
+.spacer {
+  margin-bottom: 15px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  width: 85%;
+}
+
+.location-input {
+  border: 3px solid #8bd600;
+  border-radius: 10px;
+  padding: 2px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.complaint-input {
+  border: 3px solid #8bd600;
+  border-radius: 10px;
+  padding: 2px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.input-age {
+  margin-left: 1px;
+}
+
+.single-line {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.single-line-1 {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.remarks {
+  display: flex;
+  margin-left: 50px;
+  /* gap: 20px; */
+  width: 100%;
+  text-align: left;
+}
+
+.remarks textarea {
+  width: 100%;
+  margin-right: 100px;
+  resize: none;
+}
+
+.remarks-1 {
+  display: flex;
+  margin-left: 50px;
+  padding-right: 10%;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+.remarks-1 textarea {
+  width: 95%;
+  margin-right: 100px;
+  /* padding-left: 180px; */
+  resize: none;
+}
+
+.custom-input {
+  border: 3px solid #8bd600;
+  border-radius: 10px;
+  padding: 2px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+
+.doctor-selection {
+  display: flex;
+  align-items: center;
+  width: 130%;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.query {
+  display: flex;
+  width: 100%;
+  margin-left: 50px;
+  text-align: left;
+}
+
+label {
+  width: 150px;
+  margin-left: 15px;
+}
+
+.radio-options {
+  display: flex;
+  align-items: left;
+  justify-content: space-evenly;
+  width: 22%;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.radio-options input[type="radio"] {
+  vertical-align: middle;
+  margin-top: -6px;
+}
+
+.dates {
+  display: flex;
+  margin-left: -30px;
+  justify-content: space-between;
+}
+
+.expected-date {
+  flex: 1;
+  margin-right: 30px;
+  /* padding-left: 40px; */
+}
+
+.finance-distance-treatment-remarks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.expected-date label {
+  margin-right: 10px;
+}
+.warning-message {
+  color: red; /* Set the color of the warning message */
+  font-size: 16px; /* Set the font size of the warning message */
+  margin-top: 4px; /* Add some margin to the top of the warning message */
+  font-weight: bold;
+}
+.date-message {
+  color: red; /* Set the color of the warning message */
+  font-size: 16px; /* Set the font size of the warning message */
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .full {
+    height: auto;
+    width: 120%;
+    margin-left: 20%;
+  }
+
+  .add-icon {
+    right: 20;
+    bottom: 0;
+    margin-left: 10%;
+    margin-top: 13%;
+  }
+
+  .form-container,
+  .additional-info,
+  .patient {
+    width: 80%;
+    margin-left: 20px;
+   align-items: center;
+  }
+  .submit-container{
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+  .button {
+    margin-left:40px;
+   
+  }
+
+}
+@media only screen and (max-width:1000px){
+  .full{
+    height: auto;
+    width: 140%;
+  }
+  .submit-container{
+    padding-right: 20px;
+    margin-top: 10px;
+  }
+  .button {
+    /* padding-bottom: 20px; */
+    margin-left:20px;
+  }
+}
+  
+@media only screen and (max-width: 800px) {
+  .full {
+    height: auto;
+    width: 130%;
+    margin-left: 10%;
+  }
+
+  .add-icon {
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+  .form-container,
+  .additional-info,
+  .patient {
+    width: 80%;
+    margin-left: 20px;
+   align-items: center;
+  }
+  .submit-container{
+    margin-bottom: 0;
+    padding-right: 10px;
+    margin-top: 10px;
+  }
+  .button {
+    /* padding-bottom: 20px; */
+    margin-left:20px;
+  }
+
+}
+
+  @media only screen and (max-width: 700px) {
+    .full {
+      height: auto;
+      width: 133%;
+      margin-left: 10%;
+    }
+  
+    .add-icon {
+      margin-left: 20%;
+      margin-top: 20%;
+    }
+    .additional-info{
+      width: 80%;
+      margin-left: 10px;
+     align-items: center;
+
+    }
+    .single-line,
+    .single-line-1{
+      margin-left: 5px;
+    }
+    
+    
+    .patient {
+      width: 80%;
+      margin-left: 10px;
+     align-items: center;
+    }
+    .submit-container{
+      margin-top: 20%;
+      padding-right: 30px;
+
+    }
+    .button {
+      margin-left:10px;
+    }
+    .radio-options{
+      margin-left: 20px;
+    }
+    .input-age{
+      margin-left: 10px;
+    }
+    .remarks,
+  .remarks-1 {
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .remarks textarea,
+  .remarks-1 textarea {
+    align-items: flex-start;
+    width: 90%;
+    resize: none;
+  }
+  }
+  @media only screen and (max-width: 650px){
+    .full{
+      width: 100%;
+    }
+    .single-line{
+      justify-content: flex-start;
+      display: inline-block;
+      align-items: flex-start;
+      width: 100%;
+      margin-right: 10%;
+    }
+  .single-line-1{
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 40%; */
+    margin-left: 0;
+  }
+  .add-icon {
+    margin-left: 10%;
+    margin-top: 30%;
+  }
+  .input-age{
+    margin-left: 20px;
+  }
+  .query{
+    text-align:  start;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    width: 100%;
+    margin-left: 0;
+  }
+  .doctor-selection {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300%;
+    margin-left: 0;
+  }
+  .submit-container{
+    margin-top: 70%;
+    padding-right: 30px;
+
+  }
+  .button {
+    margin-left:10px;
+  }
+  
+  }
+
+
+@media only screen and (max-width: 600px) {
+  .full{
+    width: 110%;
+  }
+  .search-icon{
+    padding-bottom: 20px;
+  }
+  .single-line{
+    justify-content: flex-start;
+    display: inline-block;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 10px;
+  }
+.single-line-1{
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+.add-icon {
+  margin-left: 10%;
+  margin-top: 30%;
+}
+.query{
+  text-align:  start;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  width: 120%;
+  margin-left: 0;
+}
+.doctor-selection {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300%;
+  margin-left: 0;
+}
+.expected-date{
+  margin-left: 30px;
+}
+.submit-container{
+  margin-top: 41rem;
+  padding-right: 50px;
+
+}
+.button {
+  margin-left:10px;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+  .full{
+    width: 115%;
+  }
+  .search-icon{
+    padding-bottom: 20px;
+  }
+  .single-line{
+    justify-content: flex-start;
+    display: inline-block;
+    align-items: flex-start;
+    width: 100%;
+    margin-right: 10%;
+  }
+.single-line-1{
+  flex-direction: column;
+  align-items: flex-start;
+  /* width: 40%; */
+  margin-left: 0;
+}
+.add-icon {
+  margin-left: 20px;
+  margin-top: 38%;
+}
+.query{
+  text-align:  start;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  width: 110%;
+  margin-left: 0;
+}
+.doctor-selection {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300%;
+  margin-left: 0;
+}
+.submit-container{
+  margin-top: 41rem;
+  padding-right: 50px;
+
+}
+.button {
+  margin-left:10px;
+}
+}
+@media only screen and (max-width: 400px) {
+  .full{
+    width: 115%;
+  }
+  .search-icon{
+    padding-bottom: 20px;
+  }
+  .single-line{
+    justify-content: flex-start;
+    display: inline-block;
+    align-items: flex-start;
+    width: 100%;
+    margin-right: 10%;
+  }
+.single-line-1{
+  flex-direction: column;
+  align-items: flex-start;
+  /* width: 40%; */
+  margin-left: 0;
+}
+.add-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 10%;
+  margin-top: 42%;
+}
+.query{
+  text-align:  start;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  width: 120%;
+  margin-left: 0;
+}
+.doctor-selection {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300%;
+  margin-left: 0;
+}
+.expected-date{
+  margin-left: 20px;
+}
+.submit-container{
+  margin-top: 45rem;
+  padding-right: 50px;
+
+}
+.button {
+  margin-left:10px;
+}
+}
+@media only screen and (max-width: 380px) {
+  
+  .full{
+    width: 125%;
+  }
+  .add-icon{
+    margin-top: 49%;
+    margin-left: 10px;
+  }
+  .doctor-selection{
+    width: 350%;
+  }
+  .submit-container{
+    margin-top: 50rem;
+    padding-right: 50px;
+  
+  }
+  .button {
+    margin-left:10px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .full{
+    width: 130%;
+  }
+  .search-icon{
+    padding-bottom: 20px;
+  }
+  .single-line{
+    justify-content: flex-start;
+    display: inline-block;
+    align-items: flex-start;
+    width: 100%;
+    margin-right: 10%;
+  }
+.single-line-1{
+  flex-direction: column;
+  align-items: flex-start;
+  /* width: 40%; */
+  margin-left: 0;
+}
+.add-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 10%;
+  margin-top: 80%;
+}
+.query{
+  text-align:  start;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  width: 120%;
+  margin-left: 0;
+}
+.doctor-selection {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300%;
+  margin-left: 0;
+}
+.expected-date{
+  margin-left: 20px;
+}
+.submit-container{
+  margin-top: 45rem;
+  padding-right: 50px;
+
+}
+.button {
+  margin-left:10px;
+}
+}
+@media only screen and (max-width: 200px) {
+  .full{
+    width: 100%;
+  }
+  .search-icon{
+    padding-bottom: 20px;
+  }
+  .single-line{
+    justify-content: flex-start;
+    display: inline-block;
+    align-items: flex-start;
+    width: 100%;
+    margin-right: 10%;
+  }
+.single-line-1{
+  flex-direction: column;
+  align-items: flex-start;
+  /* width: 40%; */
+  margin-left: 0;
+}
+.add-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 10%;
+  margin-top: 80%;
+}
+.query{
+  text-align:  start;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  width: 120%;
+  margin-left: 0;
+}
+.doctor-selection {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300%;
+  margin-left: 0;
+}
+.expected-date{
+  margin-left: 20px;
+}
+.submit-container{
+  margin-top: 45rem;
+  padding-right: 50px;
+
+}
+.button {
+  margin-left:10px;
+}
+}
